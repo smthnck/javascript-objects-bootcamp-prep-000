@@ -1,9 +1,9 @@
 const playlist = {Kanye:'Yikes'};
 
-var updatePlaylist = function(list,artist,song){
+var updatePlaylist2 = function(list,artist,song){
   return Object.assign({},list,{ [artist]:song })
 }
 
-var removeFromPlaylist = function(list,artist){
+var removeFromPlaylist2 = function(list,artist){
   delete list.artist;
 }
