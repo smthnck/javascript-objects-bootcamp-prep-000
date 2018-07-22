@@ -5,5 +5,5 @@ const updatePlaylist = function(lsit,artist,song){
 }
 
 cosnt removeFromPlaylist = function(list,artist){
-  delete list.artist
+  delete list.artist;
 }
