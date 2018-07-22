@@ -1,1 +1,1 @@
-const playlist = {'Kanye':'Yikes'};
+const playlist = {Kanye:'Yikes'};
