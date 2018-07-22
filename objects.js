@@ -1,6 +1,6 @@
 const playlist = {Kanye:'Yikes'};
 
-const updatePlaylist = function(lsit,artist,song){
+const updatePlaylist = function(list,artist,song){
   return Object.assign({},list,{ [artist]:song })
 }
 
